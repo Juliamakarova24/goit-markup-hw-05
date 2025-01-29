@@ -480,65 +480,56 @@ img {
 /* 5 урок */
 
 .footer-text-subscribe {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
-  letter-spacing: 0.04em;
+  
+
 }
 
-.subscribe-form {
-  display: flex;
-  align-items: center;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  outline: none;
+.form-input{
   width: 264px;
   height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-.subscribe-form input {
-  flex-grow: 1;
-  border: none;
-  padding: 10px;
+  border: 1px solid #fff;
   background: transparent;
-  color: white;
-  font-size: 12px;
-  outline: none;
-  margin-right: 24px;
-}
-.form-input::placeholder {
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  padding-left: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
 }
-.subscribe-form:focus,
-.subscribe-form:hover {
+
+
+.form-input:focus,
+.form-input:hover {
   border: 1px solid #31d0aa;
   border-radius: 4px;
 }
-.subscribe-form button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 16px;
-  border-radius: 4px;
-  padding: 8px 24px;
+.submit-btn{
   width: 165px;
   height: 40px;
-  /* min-width: 150%;
-  max-width: 100%; */
-  background: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
-  border: 1px solid #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
+
+.footer-icon{
+margin-left: 16px;
+}
+
 .subscribe-form button:focus,
 .subscribe-form button:hover {
   border: 1px solid #31d0aa;
