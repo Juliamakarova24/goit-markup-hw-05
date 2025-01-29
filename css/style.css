@@ -424,7 +424,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  min-width: 264px;
 }
 .footer-text-social {
   font-weight: 500;
@@ -534,7 +534,7 @@ img {
 }
 
 .footer-icon{
-margin-left: 16px;
+/* margin-left: 16px; */
 }
 
 .subscribe-form button:focus,
@@ -587,7 +587,9 @@ margin-left: 16px;
   scale(1.5);
 }
 
-
+.modal{
+  padding: 72px 24px 24px 24px;
+}
 
 .button-close{
   position:absolute;
@@ -596,54 +598,82 @@ margin-left: 16px;
   width: 24px;
 height: 24px;
   border-radius: 50%;
-  color: #e7e9fc;
-  stroke-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.icon-close{
-  fill: #2e2f42;
-  font-size: 100%;
+  padding:0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .button-close:focus,
 .button-close:hover{
-  border-radius: 100%;
+border: none;
 background-color: #404bbf;
 }
 
-.button-close .icon-close:focus,
+.icon-close{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-close .icon-close:focus{
+  fill:#fff;
+}
 .button-close .icon-close:hover{
   fill:#fff;}
 
   .text{
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding-top:72px;
-}
-.form-contacts{
-  margin-left: 24px;
+margin-bottom: 16px;
 }
 
-.label-username{
-font-weight: 400;
+
+.form-div{
+  margin-bottom: 8px;
+}
+
+.user-name{
+display: block;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+margin-bottom: 4px;
+}
+.div-input{
+  position: relative;
 }
 
-.form-div input{
-  margin-top: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+.input-modal{
+border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
-width: 360px;
-height: 40px;
+width: 100%;
+height: 40%;
+background-color: transparent;
+padding-left: 38px;
+outline: transparent; 
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.imput .icon-person{
-  color:#2e2f42;
+
+.input-modal:focus{
+border-color: #4D5AE5; 
+}
+
+.icon-person-black{
+position: absolute;
+left: 16px;
+top: 50%;
+transform: translateY(-50%);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-person-black:focus{
+  fill: #4D5AE5; 
+
 }
