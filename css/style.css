@@ -467,6 +467,7 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4D5AE5;
 }
 .conteiner-social-media {
   margin-right: 120px;
@@ -688,7 +689,7 @@ fill:#ffffff;
 fill:#ffffff; 
 }
 
-.form-div-comment{
+.form-four{
   margin-bottom: 16px;
 }
   
@@ -697,7 +698,6 @@ fill:#ffffff;
   height: 120px;
 font-size: 12px;
 line-height: 1.17;
-letter-spacing: 0.04em;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -710,25 +710,19 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-modal-comment:focus{
-border-color: #4D5AE5; 
+fill: #4D5AE5; 
 }
 .input-modal-comment:hover{
-border-color: #4D5AE5; 
+fill: #4D5AE5; 
 }
-
-
-
-
-.input-chechbox
-
 
 
 
 /* checkbox */
 
-.form-div-privacy{
+/* .form-div-privacy{
 margin-bottom: 24px;
-}
+} */
 
 
 .input-privacy{
