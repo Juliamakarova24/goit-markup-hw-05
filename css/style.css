@@ -676,7 +676,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-color: #4D5AE5;
 }
 
-.input-modal:focus .icon-black{
+.icon-black:focus{
   fill: #4D5AE5;
 }
 
@@ -689,12 +689,9 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .icon-black:focus{
-fill:#ffffff; 
+.form-com{
+  margin-bottom: 24px;
 }
-.icon-black:hover{
-fill:#ffffff; 
-} */
 
 .form-four{
   margin-bottom: 16px;
