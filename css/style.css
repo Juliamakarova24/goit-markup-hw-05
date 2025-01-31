@@ -682,10 +682,10 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-black:focus{
-fill: #4D5AE5; 
+fill:#ffffff; 
 }
 .icon-black:hover{
-fill: #4D5AE5; 
+fill:#ffffff; 
 }
 
 .form-div-comment{
@@ -698,7 +698,6 @@ fill: #4D5AE5;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-/* font-weight: 400; */
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -754,24 +753,19 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 display: inline-flex;
 align-items: center;
 justify-content: center;
-fill: transparent;}
-
-/* .input-privacy visually-hidden{
-
-} */
-
-/* .input-privacy:checked + .label-privacy .modal-check{
-  border-color: #4D5AE5;
-} */
+fill: transparent;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
-
-
+.input-privacy:checked + .label-privacy .modal-check{
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
-/* .input-chechbox:checked{
-border-radius: 2px;
-fill: #404bbf;
-border: 1px solid #404bbf;
-} */
 
-
+.p-p{
+color: #4d5ae5;
+line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+}
