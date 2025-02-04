@@ -470,7 +470,7 @@ img {
   border-color: #4d5ae5;
 }
 .conteiner-social-media {
-  margin-right: 120px;
+  margin-right: 80px;
 }
 
 .footer-social-link:focus,
@@ -507,6 +507,14 @@ img {
   border-radius: 4px;
   color: #ffffff;
 }
+.form-input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
 
 .form-input:focus,
 .form-input:hover {
@@ -530,11 +538,13 @@ img {
   min-width: 165px;
   align-items: center;
   font-weight: 500;
+  gap: 16px;
 }
 
-.footer-icon {
+/* .footer-icon.subs {
   margin-left: 16px;
-}
+  fill: #f4f4fd;
+} */
 
 .subscribe-form button:focus,
 .subscribe-form button:hover {
@@ -646,7 +656,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 .div-input {
   position: relative;
